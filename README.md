@@ -29,14 +29,14 @@ Finally, the vehicle's position and heading are updated based on its velocity an
 
 ## Parameters
 
-##PID controller parameters:
+PID controller parameters:
 - `Kp` — proportional coefficient.
 - `Ki` — integral coefficient.
 - `Kd` — derivative coefficient.
 - `max_steering_angle` — maximum steering angle.
 - `max_velocity` — maximum vehicle velocity.
 
-##Initial state and target:
+Initial state and target:
 - `target_x`, `target_y` — target position.
 - `current_x`, `current_y` — initial vehicle position.
 - `heading` — initial vehicle heading.
